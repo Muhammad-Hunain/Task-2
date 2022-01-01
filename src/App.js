@@ -18,7 +18,6 @@ function App() {
       {users.map(({id,login,type}) =>(
           <>
           <li key = {id}>Name :{login} <br/> Type : {type}</li>
-          
           </>  
         ))}
       </ul>
